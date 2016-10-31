@@ -1,0 +1,8 @@
+body
+{
+    background-image: url(../resources/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+}
