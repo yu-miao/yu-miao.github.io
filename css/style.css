@@ -12,14 +12,15 @@ hr
 }
 .placeholder
 {
-    height:60px;
+    height:50px;
+    margin:0;
 }
 .block
 {
     background-color: rgba(247, 247, 247, 0.74);
-    margin-top:20px;
+    margin-bottom:20px;
 }
-li
+.block li
 {
     margin-bottom:10px;
 }
