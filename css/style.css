@@ -1,8 +1,25 @@
 body
 {
-    background-image: url(../resources/logo.jpg);
+    background-image: url(../img/logo.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
     background-position: center;
+}
+hr
+{
+    border-top:1px solid rgba(65, 65, 65, 0.49);
+}
+.placeholder
+{
+    height:60px;
+}
+.block
+{
+    background-color: rgba(247, 247, 247, 0.74);
+    margin-top:20px;
+}
+li
+{
+    margin-bottom:10px;
 }
