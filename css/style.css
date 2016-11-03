@@ -24,3 +24,18 @@ hr
 {
     margin-bottom:10px;
 }
+#slider
+{
+    position:absolute;
+    width:100%;
+    height:100%;
+    margin:0;
+    overflow: hidden;
+    background-color: rgba(247, 247, 247, 0.74);
+}
+.carousel-inner div img
+{
+    max-width:1000px;
+    margin:0 auto;
+    /*min-height:1000px;*/
+}
