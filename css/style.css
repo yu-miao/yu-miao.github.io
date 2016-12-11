@@ -39,3 +39,9 @@ hr
     margin:0 auto;
     /*min-height:1000px;*/
 }
+th,
+td
+{
+    text-align:center;
+    vertical-align:middle;
+}
