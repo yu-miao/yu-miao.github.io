@@ -5,16 +5,59 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>首页</title>
     <script src="js/head-loader.js"></script>
+    <style>
+        html,body
+        {
+            position:relative;
+            width:100%;
+            height:100%;
+        }
+        #hello
+        {
+            position:relative;
+            display: flex;
+            width:100%;
+            height:70%;
+            flex-direction: column;
+            justify-content: center;
+        }
+        @keyframes animate-in
+        {
+            50%
+            {
+                top:0;
+            }
+        }
+        #join-us
+        {
+            background-color: #02a95b;
+            color:white;
+            transition:all .3s;
+            border:3px solid white;
+            /*padding:20px;*/
+            /*margin:20px;*/
+        }
+        #join-us:hover
+        {
+            background-color: white;
+            color:#02a95b;
+        }
+        #join-us h1
+        {
+            margin:10px;
+            padding:0 100px;
+        }
+    </style>
 </head>
 <body>
-<div class="container block">
-    <div class="row">
-        <div class="col-sm-12">
-            <h3>那个，咳咳，首页内容待定，到其他页面去逛逛吧~~~</h3>
-            <hr>
-        </div>
+<div class="hello" id="hello">
+    <h1 class="text-center" id="hello-1">20岁</h1>
+    <h1 class="text-center" id="hello-2">做一件在80岁也能笑出声来的事情</h1>
+    <h1></h1>
+    <h1></h1>
+    <div class="text-center">
+        <a class="btn btn-lg" id="join-us" href="其他/苗苗爱你.html"><h1>加入我们</h1></a>
     </div>
 </div>
 </body>
 </html>
-<!-- TODO； 将相关的的路径改成更好理解的中文-->

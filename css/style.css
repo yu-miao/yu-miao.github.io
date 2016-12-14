@@ -1,10 +1,23 @@
 body
 {
-    background-image: url(../img/logo.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-attachment: fixed;
-    background-position: center;
+    background-color: #02a95b;
+    font-family: 微软雅黑, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:white;
+}
+a{
+    color:white;
+}
+.text-green
+{
+    color: #02a95b;
+}
+.text-black
+{
+    color:black;
+}
+.text-bold
+{
+    font-weight: bold;
 }
 hr
 {
@@ -17,7 +30,7 @@ hr
 }
 .block
 {
-    background-color: rgba(247, 247, 247, 0.74);
+    background-color: rgb(2, 125, 62);
     margin-bottom:20px;
     padding-bottom:10px;
 }
@@ -45,4 +58,9 @@ td
 {
     text-align:center;
     vertical-align:middle;
+}
+.navbar-default
+{
+    background-color: white;
+    /*border-bottom: 2px solid black;*/
 }
